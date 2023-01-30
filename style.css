@@ -38,7 +38,7 @@ main{
     background-color: #E5E5E5;
     display: grid;
     grid-template-columns: repeat(3,478px);
-    /* grid-template-rows: repeat(11,80px); */
+    grid-template-rows: repeat(11,80px);
     gap: 25px ;
     padding: 30px ;
     font-size: 5rem;
@@ -59,6 +59,7 @@ main{
 
 .medium{
     font-size: 2rem;
+    font-weight: 500;
     color: var(--color-primary);
 }
 
@@ -121,32 +122,23 @@ main{
     background-color: #F1F3F6;
     border-radius: 100%;
 }
-
-.avatar__title , .avatar__description{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.avatar__description{
+    text-align: left;
 }
 
-.avatar__title{
-    margin-bottom: 2rem;
+.avatar__description .medium{
+    font-size: 1.5rem;
 }
 
-.avatar__title .bold{
+.bold-name{
     font-size: 1.8rem;
 }
 
-.avatar__title .medium{
+.bold-dec{
+    margin-top: 2rem;
     font-size: 1.5rem;
 }
 
-.avatar__description .bold{
-    font-size: 1.5rem;
-}
-
-.avatar__description .normal{
-    text-align: left;
-}
 /* Item - c */
 .item_c{
     grid-column: 1/2;
@@ -154,11 +146,101 @@ main{
    
 }
 
-.item_d{
+.item_c img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.learn{
+    text-align: left;
+}
+
+.learn .medium{
+    margin: 1rem 0;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.blog .bold{
+    font-size: 1.4rem;
+}
+
+.btn {
+    background-color: #EEF7FE;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+}
+
+
+/* Item - d */
+
+.item-d{
     grid-column: 2/3;
     grid-row: 1/7;
    
 }
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.profile-img{
+    width: 115px;
+    background-color: #F1F3F6;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.profile-intro .bold{
+    font-size: 1.8rem;
+}
+
+.profile-intro .medium{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-pro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons{
+    margin: 2rem 0;
+}
+.social-icon:not(:first-child){
+ margin-left: 3rem;
+}
+
+.social-icon i{
+    font-size: 2.5rem;
+    color: var(--color-primary);
+}
+.btn__primary{
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 1.5rem 6rem ;
+    border-radius: 16px;
+    font-size: 2rem;
+}
+
+.btn-secondary{
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 1.5rem 6rem ;
+    border-radius: 16px;
+    font-size: 2rem;
+}
+
 
 .item_e{
     grid-column: 2/3;
