@@ -135,7 +135,7 @@ main{
 }
 
 .bold-dec{
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
 }
 
@@ -217,24 +217,26 @@ main{
 .social-icons{
     margin: 2rem 0;
 }
+
 .social-icon:not(:first-child){
- margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 .social-icon i{
     font-size: 2.5rem;
     color: var(--color-primary);
 }
+
 .btn__primary{
     background-color: var(--color-primary);
     color: #fff;
-    padding: 1.5rem 6rem ;
+    padding: 2rem 6rem ;
     border-radius: 16px;
     font-size: 2rem;
 }
 
 .btn-secondary{
-    border: 2px solid var(--color-primary);
+    border: 3px solid var(--color-primary);
     color: var(--color-primary);
     padding: 1.5rem 6rem ;
     border-radius: 16px;
@@ -244,13 +246,64 @@ main{
 
 .item_e{
     grid-column: 2/3;
-    grid-row: 7/10;
+    grid-row: 7/11;
    
 }
 
+.calendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-c{
+    font-size: 1.8rem;
+}
+
+.calendar-month{
+    font-size: 3.8rem;
+    
+}
+.calendar-month::after{
+    content: "";
+    background: url(/assets/Rectangle\ 1\(1\).png) no-repeat bottom;
+    padding-right: 2rem;
+}
+
+.calendar-days{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.day{
+padding: 1rem 2.5rem;
+}
+
+.num-day{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(34, 33, 91, 0.7);
+}
+
+.number{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.number-light
+{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color: rgb(34, 33, 91, 0.3);
+}
+
+
+
 .item_f{
     grid-column: 2/3;
-    grid-row: 10/12;
+    grid-row: 11/12;
    
 }
 
