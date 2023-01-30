@@ -2,17 +2,18 @@
     font-family: "Gilroy";
     font-weight: 400;
     font-style: normal;
-    src: url("fonts/Gilroy-Light.otf") format("otf") ;
+    src: url("fonts/Gilroy-Regular.woff") format("woff") ;
 }
 
 @font-face {
     font-family: "Gilroy";
     font-weight: 700;
     font-style: normal;
-    src: url("fonts/Gilroy-ExtraBold.otf") format("otf") ;
+    src: url("fonts/Gilroy-Bold.woff") format("woff") ;
 }
 
 body,
 button{
     font-family: "Gilroy";
+    text-transform: capitalize;
 }

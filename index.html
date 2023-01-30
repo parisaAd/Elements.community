@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,71 @@
     <title>Elements community</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link rel="stylesheet" type='text/css' media='screen' href='fonts.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href='/fonts.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <main>
         <div class="container">
 
             <div class="item item_a">
-                <p>new delhi</p>
-                <span>06:20</span><span>AM</span>
-                <span>novemaber</span><span>10.2020 | wednesday</span>
+                <div class="weather-text">
+                    <p class="normal">new delhi</p>
+                    <p class="bold">06:20 AM</p>
+                    <p class="normal">novemaber 10.2020 | wednesday</p>
+                </div>
+                <div class="weather-icon">
+                    <span>
+                        <i class="fas fa-cloud"></i>
+
+                    </span>
+                    <span class="bold">18° C</span>
+                </div>
             </div>
-            <div class="item item_b">b</div>
+
+            <div class="item item_b">
+
+                <div class="avatar">
+                    <div class="avatar__cover"> <img src="/assets/Avatar.svg" alt=""></div>
+                    <div>
+                        <p class="medium">post</p>
+                        <p class="bold">23</p>
+                    </div>
+                    <div>
+                        <p class="medium">followers</p>
+                        <p class="bold">326</p>
+                    </div>
+                    <div>
+                        <p class="medium">following</p>
+                        <p class="bold">120</p>
+                    </div>
+                </div>
+
+                <div class="avatar__title">
+                    <p class="bold">neelesh chaudhary</p>
+                    <p class="medium">UI/UX designer</p>
+                </div>
+                <div class="avatar__description">
+                    <p class="bold">about</p>
+                    <p class="normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis
+                        sit
+                        exercitationem, explicabo sapiente dicta odit porro sapiente</p>
+                </div>
+
+            </div>
+
             <div class="item item_c">c</div>
             <div class="item item_d">d</div>
             <div class="item item_e">e</div>
             <div class="item item_f">f</div>
-            <div class="item item_g">g</div>
+
+            <div class="item item_g">
+                    <img src="/assets/Search Icon.png" alt="">
+                    <p class="medium">search</p>
+            </div>
             <div class="item item_h">h</div>
             <div class="item item_i">i</div>
             <div class="item item_j">j</div>
@@ -31,4 +80,5 @@
         </div>
     </main>
 </body>
+
 </html>
