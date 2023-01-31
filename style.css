@@ -427,15 +427,82 @@ main{
 }
 
 
-
-
-
+/* Item - h */
 
 .item_h{
     grid-column: 3/4;
     grid-row: 2/5;
-   
+   display: flex;
+   justify-content: space-between;
 }
+
+.expertise{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.e-items{
+    text-align: left;
+}
+
+.ellipse{
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.ratio {
+    margin-top: 1.5rem;
+    position: relative;
+    height: 173px;
+    width: 173px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: conic-gradient(#22215B  80deg , #FFC700 80deg 130deg, #4CE364 130deg 180deg, #567DF4 180deg 320deg, #22215B 320deg);
+  }
+    
+  .ratio::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    top: 28%;
+    left: 28%;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.radio-percent{
+    position: absolute;
+    color: #fff;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+
+.radio-percent.one{
+    top: 10%;
+    left: 53%;
+}
+
+.radio-percent.two{
+    top: 50%;
+    left: 10%;
+}
+
+.radio-percent.three{
+    top: 77%;
+    left: 60%;
+}
+
+.radio-percent.four{
+    top: 53%;
+    left: 80%;
+}
+
+
+/* item- i */
 
 .item_i{
     grid-column: 3/4;
