@@ -525,7 +525,7 @@ main{
     position: absolute;
     content: '';
     font-size: 1rem;
-    transform: translate(47px,-10px);
+    transform: translate(48px,-10px);
     z-index: 2;
 }
 
@@ -555,10 +555,72 @@ main{
 }
 
 
-
+/* Item - j */
 
 .item_j{
     grid-column: 3/4;
     grid-row: 6/12;
    
+}
+
+.task-todo{
+    text-align: left;
+}
+
+.task-todo .normal{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.task-item{
+    background-color: #EEF7FE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 70px;
+    margin-bottom: 2rem;
+}
+
+.check-icon{
+    font-size: 1.5rem;
+    color: #4CE364;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item .bold{
+    font-size: 2rem ;
+    margin-left: 1.5rem;
+}
+
+.task-delete{
+    font-size: 2rem;
+    color: #C7DDED;
+}
+
+.plus{
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    transform: translateX(360px);
+    font-size: 3.5rem;
 }
