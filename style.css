@@ -507,8 +507,55 @@ main{
 .item_i{
     grid-column: 3/4;
     grid-row: 5/6;
-   
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
+
+.alarm{
+    position: relative;
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    top: 0;
+    left: 0;
+}
+
+.notfig i{
+    position: absolute;
+    content: '';
+    font-size: 1rem;
+    transform: translate(47px,-10px);
+    z-index: 2;
+}
+
+.alarm i{
+    font-size: 2rem;
+    color: var(--color-primary);
+    background-color: #EEF7FE;
+    padding: 1.8rem;
+    border-radius: 100%;
+}
+
+
+.notfication{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.5rem;
+}
+
+.notfic.bold{
+    font-size: 2rem;
+}
+
+.notfic.medium{
+    font-size: 1.8rem;
+    color: rgb(34, 33, 91, 0.6);
+}
+
+
+
 
 .item_j{
     grid-column: 3/4;
